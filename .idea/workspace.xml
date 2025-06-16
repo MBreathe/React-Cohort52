@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16763a4d-20c5-4eb6-a395-0807814d617e" name="Changes" comment=".idea things" />
+    <list default="true" id="16763a4d-20c5-4eb6-a395-0807814d617e" name="Changes" comment=".idea things">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +92,7 @@
       <workItem from="1749890944553" duration="4000000" />
       <workItem from="1749975073613" duration="590000" />
       <workItem from="1750087885239" duration="39000" />
+      <workItem from="1750088375181" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary=".idea things">
       <option name="closed" value="true" />
