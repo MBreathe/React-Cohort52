@@ -15,7 +15,10 @@ function Navbar({ selectedCategory, setCategory }) {
                             <li
                                 key={category}
                                 className={category.includes("FAKE: " + selectedCategory) ? style.active : ""}
-                                onClick={(e) => setCategory(categoryClickHandler(e))}>{category}
+                                onClick={(e) => {
+                                    if (selectedCategory === 'all') return setCategory(categoryClickHandler(e));
+                                    setCategory('all');
+                                }}>{category}
                             </li>)}
             </ul>
         </div>

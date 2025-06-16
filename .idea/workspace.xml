@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16763a4d-20c5-4eb6-a395-0807814d617e" name="Changes" comment="" />
+    <list default="true" id="16763a4d-20c5-4eb6-a395-0807814d617e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/week1/project/e-commerce/src/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/week1/project/e-commerce/src/Navbar/Navbar.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "ILIA__BUBNOV-w1-React",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/BidonLoverXXX/WebstormProjects/React-Cohort52/week1/project/e-commerce/src",
     "list.type.of.created.stylesheet": "CSS",
