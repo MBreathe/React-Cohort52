@@ -1,6 +1,5 @@
 import categories from "../fake-data/all-categories.js"
 import style from "./navbar.module.css"
-import { useState } from "react";
 
 function categoryClickHandler(e) {
     return e.target.innerText.slice(6)
@@ -15,7 +14,7 @@ function Navbar({ selectedCategory, setCategory }) {
                         .map(category =>
                             <li
                                 key={category}
-                                style={{border: category.includes("FAKE: " + selectedCategory) ? "3px solid blue" : "1px solid #373737"}}
+                                className={category.includes("FAKE: " + selectedCategory) ? style.active : ""}
                                 onClick={(e) => setCategory(categoryClickHandler(e))}>{category}
                             </li>)}
             </ul>
