@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    align-items: center;
+}
+.form input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 1rem;
+}
+.form button {
+    background: #14AE5C;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

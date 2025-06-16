@@ -1,0 +1,8 @@
+.section {
+    display: grid;
+    grid-template-columns: 50rem 7rem 30rem;
+}
+.section span:not(:first-child) {
+    text-align: end;
+}
+
