@@ -1,0 +1,29 @@
+.products {
+    margin-top: 5rem;
+}
+.products ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+.products ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 40rem;
+    padding: 1rem;
+}
+.products ul li:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(55, 55, 55, 0.5);
+}
+.products ul li img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+    display: block;
+    max-height: 50rem;
+}
