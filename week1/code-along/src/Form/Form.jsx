@@ -1,11 +1,9 @@
 import Button from "../Button/Button.jsx"
 import style from "./form.module.css"
 
-function errorHandler(e) {
-    console.log(e);
-}
-
 function Form({ expense, setExpense, list, setList }) {
+    const id = crypto.randomUUID();
+
     return (
         <div className={style.form}>
             <input type={"text"} value={expense.title} placeholder={"Expense title"} onChange={
@@ -16,8 +14,8 @@ function Form({ expense, setExpense, list, setList }) {
             } />
             <Button text={"+"} onClick={
                 () => {
-                    setList([...list, expense]);
-                    setExpense({title: "", amount: ''});
+                    setList([...list, {...expense, id: id}]);
+                    setExpense({id: '', title: "", amount: ''});
                 }
             } />
         </div>

@@ -1,6 +1,8 @@
 
 
-function Total({currency, total}) {
+function Total({currency, list}) {
+    const total = list.reduce((acc, item) => acc + item.amount, 0).toFixed(2);
+
     return (
         <div>
             <p>-------------------</p>

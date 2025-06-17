@@ -7,6 +7,7 @@ import { useState } from "react";
 
 function App() {
     const [expense, setExpense] = useState({
+        id: "",
         title: "",
         amount: '',
     });
@@ -16,9 +17,9 @@ function App() {
         <>
             <h1>Budget Calculator</h1>
             <Form expense={expense} setExpense={setExpense} list={list} setList={setList} />
-            { list.map((element, index) => <Section key={index} currency={"EUR"} {...element}/>)}
-            <Total currency={"EUR"} total={1000}/>
-            <Button text={"Clear list"} onClick={() => setList([])}/>
+            { list.map((element, index) => <Section key={index} currency={"EUR"} {...element} list={list} setList={setList}/>)}
+            <Total currency={"EUR"} list={list}/>
+            <Button id={"clearListButton"} text={"Clear list"} onClick={() => setList([])}/>
         </>
     )
 }

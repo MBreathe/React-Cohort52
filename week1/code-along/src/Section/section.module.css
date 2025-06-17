@@ -1,8 +1,14 @@
 .section {
     display: grid;
-    grid-template-columns: 50rem 7rem 30rem;
+    grid-template-columns: 50rem 7rem 30rem 7rem;
 }
 .section span:not(:first-child) {
     text-align: end;
+}
+.section Button {
+    margin: 0.5rem 1.5rem;
+    background: none;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 

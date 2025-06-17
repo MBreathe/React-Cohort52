@@ -33,4 +33,19 @@ input {
 #root {
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clearListButton {
+    background: #e42424;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+Button {
+    cursor: pointer;
 }
