@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16763a4d-20c5-4eb6-a395-0807814d617e" name="Changes" comment=".idea things">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +90,8 @@
       <workItem from="1749975073613" duration="590000" />
       <workItem from="1750087885239" duration="39000" />
       <workItem from="1750088375181" duration="25000" />
+      <workItem from="1750088406651" duration="135000" />
+      <workItem from="1750146475315" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary=".idea things">
       <option name="closed" value="true" />
