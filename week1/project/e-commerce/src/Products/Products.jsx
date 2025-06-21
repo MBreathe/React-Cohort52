@@ -12,7 +12,7 @@ function Products({ selectedCategory }) {
 
     return (
         <div className={style.products}>
-            <ul>
+            <ul className={style.productsList}>
                 {filteredProducts.map(product => <Product key={product.id} {...product} />)}
             </ul>
         </div>

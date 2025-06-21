@@ -1,10 +1,7 @@
-.navbar {
-
-}
-.navbar ul {
+.categoriesList {
     list-style: none;
 }
-.navbar ul li {
+.categoryLi {
     display: inline-block;
     cursor: pointer;
     padding: 1rem;
@@ -12,11 +9,11 @@
     border-radius: 5px;
     border: 1px solid black;
 }
-.navbar ul li:hover {
+.categoryLi:hover {
     background: #373737;
     color: white;
 }
-.navbar ul li:active {
+.categoryLi:active {
     background: white;
     color: black;
 }

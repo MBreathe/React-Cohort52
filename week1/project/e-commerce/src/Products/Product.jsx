@@ -1,9 +1,9 @@
-
+import style from './products.module.css'
 
 function Product({image, title}) {
     return (
-        <li>
-            <img src={image} alt={title} />
+        <li className={style.product}>
+            <img className={style.image} src={image} alt={title} />
             <span>{title}</span>
         </li>
     )
